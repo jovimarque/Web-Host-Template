@@ -1,0 +1,212 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color:#fff;
+
+
+}
+
+/* corpo menu */
+
+.corpo { width:100%; background-color:#fff; padding:10px; margin:0px; padding:0px;}
+
+.header{
+
+width:100%;
+background-color:rgba(108, 92, 231,1.0);
+
+}
+
+#contato{
+	background-color:rgba(47, 54, 64,1.0);
+	width: 100%;
+}
+
+#contato ul{
+	list-style: none;
+	display: flex;
+}
+#contato ul li{
+	margin:5px;
+	color:white;
+	font-weight: 700;
+}
+
+
+
+
+
+
+.navbar .nav-link{
+	color:white;
+	font-weight: 700;
+}
+
+.navbar .nav-link:hover{
+
+	text-decoration: underline;
+	color:black;
+	font-weight: 700;
+}
+
+/*banner*/
+
+
+#banner{
+	width: 100%;
+	height: 340px;
+	text-align: center;
+	/*background-image: url("../img/servidor-dedicado.png");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+/* conteudo do meio*/
+
+#conteudoDoMeio{
+	width:100%;
+	background-color:#fff; 
+	padding:10px;
+	 margin:0px auto;
+	
+}
+
+#conteudoDoMeio table th {
+ margin:10px;
+}
+
+
+
+/* produtosLinha*/
+
+.produtosLinha{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+
+}
+
+
+.produto{
+	width: 350px;
+	height: 310px;
+	margin:0px auto;
+	padding:20px;
+	box-shadow:0 0 22px -6px rgba(0,0,0,.2);
+	border-radius: 10px;
+	margin-top: 50px;
+ }
+
+.produto p{
+
+	text-align: center;	
+}
+
+
+
+
+
+
+.button button{
+background:#2776fb;
+border-radius: 5px;
+color: #fff;
+padding:10px 0;
+width: 45%;
+}
+
+.button button a{
+	text-decoration: none;
+	color:white;
+}
+
+.button button a:hover{
+	text-decoration: none;
+	color:white;
+}
+
+#info{
+	width: 100%;
+	height:300px;
+	margin:0px auto;
+	
+}
+
+
+/* dominio*/
+
+/*
+
+ PARTE EXCLUIDA POR NÃO SER ESSENCIAL AO  PROJETO AINDA!!
+
+#opcoes{
+	background-color:rgba(223, 228, 234,1.0);
+	padding:20px;
+}
+#opcoes h4{
+	text-align: center;
+}
+
+
+#opcoes form{
+
+	text-align: center;
+}
+
+
+
+#servidores{
+
+	width:100%;
+	background-color:#fff;
+}
+
+*/
+
+/* rodape*/
+
+footer{
+ width: 100%;
+ height: 150px;
+ background-color: #3742fa;
+
+}
+
+footer ul {
+	list-style: none;
+	margin-top: 15px;
+
+}
+
+footer ul li a{
+
+	color:white;
+	text-decoration: none;
+	padding: 3px;
+	
+
+
+	
+}
+
+footer ul li a:hover{
+	
+	
+	color:black;
+	font-weight:700;
+	padding:3px;
+	background-color:#5352ed;
+}
+
+footer h4{
+	font-size: 22px;
+	color:white;
+	font-weight: 700;
+	text-align: center;
+
+}
